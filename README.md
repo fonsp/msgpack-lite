@@ -1,3 +1,11 @@
+> **This fork can be imported (by a browser) as an ES6 module:**
+
+```js
+import msgpack from "https://cdn.jsdelivr.net/gh/fonsp/msgpack-lite/dist/msgpack-es.min.mjs"
+
+msgpack.encode("hello future")
+```
+
 # msgpack-lite [![npm version](https://badge.fury.io/js/msgpack-lite.svg)](http://badge.fury.io/js/msgpack-lite) [![Build Status](https://travis-ci.org/kawanet/msgpack-lite.svg?branch=master)](https://travis-ci.org/kawanet/msgpack-lite)
 
 Fast Pure JavaScript MessagePack Encoder and Decoder
